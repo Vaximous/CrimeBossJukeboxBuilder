@@ -1,0 +1,17 @@
+# Created by Setup.bat on each user's machine
+config.ini
+EditorPlugin/JukeboxBuilder/Content/Python/jukebox_config.json
+
+# Third-party files downloaded by Setup.bat (other people's work - not redistributed here)
+ThirdParty/
+
+# Build output
+Output/
+
+# Users' music: keep only the instructions
+Songs/*
+!Songs/README.txt
+
+# Python
+__pycache__/
+*.pyc
